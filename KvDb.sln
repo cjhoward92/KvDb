@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.28010.2048
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "KvDb", "KvDb\KvDb.vcxproj", "{FCE8D3CF-F901-4D5C-B607-DDA65F64677D}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "KvDb.Interpreter", "KvDb.Interpreter\KvDb.Interpreter.vcxproj", "{43CD87E0-627F-42C7-A642-F35F2247E058}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -21,6 +23,14 @@ Global
 		{FCE8D3CF-F901-4D5C-B607-DDA65F64677D}.Release|x64.Build.0 = Release|x64
 		{FCE8D3CF-F901-4D5C-B607-DDA65F64677D}.Release|x86.ActiveCfg = Release|Win32
 		{FCE8D3CF-F901-4D5C-B607-DDA65F64677D}.Release|x86.Build.0 = Release|Win32
+		{43CD87E0-627F-42C7-A642-F35F2247E058}.Debug|x64.ActiveCfg = Debug|x64
+		{43CD87E0-627F-42C7-A642-F35F2247E058}.Debug|x64.Build.0 = Debug|x64
+		{43CD87E0-627F-42C7-A642-F35F2247E058}.Debug|x86.ActiveCfg = Debug|Win32
+		{43CD87E0-627F-42C7-A642-F35F2247E058}.Debug|x86.Build.0 = Debug|Win32
+		{43CD87E0-627F-42C7-A642-F35F2247E058}.Release|x64.ActiveCfg = Release|x64
+		{43CD87E0-627F-42C7-A642-F35F2247E058}.Release|x64.Build.0 = Release|x64
+		{43CD87E0-627F-42C7-A642-F35F2247E058}.Release|x86.ActiveCfg = Release|Win32
+		{43CD87E0-627F-42C7-A642-F35F2247E058}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
