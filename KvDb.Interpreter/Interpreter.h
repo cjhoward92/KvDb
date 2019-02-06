@@ -8,9 +8,12 @@
 #define KVDBEXPORT __declspec(dllimport)
 #endif
 
+// The idea for these patterns comes directly from
+// https://github.com/terrajobst/minsk/blob/master/src/Minsk/CodeAnalysis/Syntax/Lexer.cs
+// I am new to compiler/interpreter patterns...
 enum KvTokenKind
 {
-	EOL,
+	EndOfFile,
 	Number,
 	Plus,
 	Minus,
