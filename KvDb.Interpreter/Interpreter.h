@@ -61,6 +61,13 @@ private:
 	char Peek(int offset);
 };
 
+class KvExpression
+{
+public:
+	virtual std::string ToString() const;
+	virtual void Execute();
+};
+
 class KVDBEXPORT KvInterpreter
 {
 public:
