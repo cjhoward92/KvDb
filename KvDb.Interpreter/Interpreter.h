@@ -1,6 +1,8 @@
 #pragma once
 
 #include <string>
+#include <vector>
+#include <memory>
 
 #ifdef KVDBINTERPRETER_EXPORTS
 #define KVDBEXPORT __declspec(dllexport)
@@ -18,7 +20,11 @@ enum KvTokenKind
 	Plus,
 	Minus,
 	Multiply,
-	Divide
+	Divide,
+	OpenParen,
+	CloseParen,
+	Space,
+	Invalid
 };
 
 class KvToken {
